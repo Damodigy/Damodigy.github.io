@@ -1,0 +1,76 @@
+.container {
+  max-width: 980px;
+  max-height: 45px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.849);
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  backdrop-filter: saturate(180%), blur(20px);
+}
+
+header .desctop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .mobile {
+  display: none;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: #f5f5f7;
+  padding: 0 8px;
+  opacity: 0.8;
+}
+
+header a.menu {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+header a.menu .first-line, header a.menu .second-line {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 30px;
+  height: 30px;
+}
+
+header a.menu .first-line span, header a.menu .second-line span {
+  left: 7px;
+  width: 17px;
+  height: 1px;
+  background: #fff;
+  border-radius: 0.5px;
+  position: absolute;
+}
+
+header a.menu .first-line span {
+  top: 10px;
+}
+
+header a.menu .second-line span {
+  bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  header .desctop {
+    display: none;
+  }
+
+  header .mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

